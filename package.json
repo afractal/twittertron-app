@@ -1,9 +1,9 @@
 {
-  "name": "site",
-  "version": "1.0.1",
+  "name": "twittertron-app",
+  "version": "1.0.0",
   "author": "afractal",
   "description": "",
-  "license": "GPLv3",
+  "license": "MIT",
   "private": true,
   "main": "app.js",
   "scripts": {
