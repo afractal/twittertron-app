@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Highly perfomant, easy to use, minimalistic digital metronome desktop app">
+
+  <title>Metronome</title>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Titillium+Web&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+  <div id="particles-js" style="position: fixed; height: 100%; width: 100%; user-select: none; -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -webkit-app-region: no-drag; z-index: 0;"></div>
+
+  <header class="header__container">
+
+    <div class="banner">
+      <div class="banner__logo__container">
+        <img class="banner__logo" alt="metronome logo" src="./Logo.png" />
+        <!-- <span class="banner__title">Metronome</span> -->
+      </div>
+
+      <ul class="banner__list">
+        <li class="banner__item">
+          <a class="banner__link" href="#screenshots">SCREENSHOTS</a>
+        </li>
+        <li class="banner__item">
+          <a class="banner__link" href="#features">FEATURES</a>
+        </li>
+        <li class="banner__item">
+          <a class="banner__link" href="#roadmap">ROADMAP</a>
+        </li>
+        <li class="banner__item">
+          <a class="banner__link" href="#support">SUPPORT</a>
+        </li>
+      </ul>
+    </div>
+
+  </header>
+
+  <section class="hero__container">
+
+    <div class="hero__title">
+      Highly performant, easy to use, minimalistic digital metronome desktop app.
+    </div>
+
+    <div class="download__links">
+
+      <div class="download">
+        <a class="download__button" target="_blank" rel="noopener noreferrer"
+          href="https://www.microsoft.com/en-us/p/metronome-by-afractal/9njxb114t1dm?activetab=pivot:overviewtab">
+          <div class="container">
+            <i class="fa fa-windows download__image"></i>
+          </div>
+          <div class="container">
+            <span class="download__text">App Store</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="download">
+        <a class="download__button" href="./releases/Metronome-v1.0.42.exe">
+          <div class="container">
+            <i class="fa fa-windows download__image"></i>
+          </div>
+          <div class="container">
+            <span class="download__text" title="After download, you have to unblock the executable.">
+              Executable <i class="fa fa-info-circle download__info"></i>
+            </span>
+          </div>
+        </a>
+      </div>
+
+      <!-- <div class="download">
+        <a class="download__button" href="#">
+          <div class="container">
+            <i class="fa fa-apple download__image"></i>
+          </div>
+          <div class="container">
+            <span class="download__text">WIP 🚧</span>
+          </div>
+        </a>
+      </div> -->
+
+    </div>
+
+    <div class="version__container">
+      <span class="version">Current version 1.0.42 released at February 2, 2020 </span>
+    </div>
+
+  </section>
+
+  <section class="screenshots__container" id="screenshots">
+
+    <div class="section__title">
+      <h4>SCREENSHOTS</h4>
+      <hr />
+    </div>
+
+    <div class="screenshots">
+
+      <figure class="screenshot" style="margin-top: 8em;">
+        <img src="./images/screenshot1.png" alt="screenshot 1">
+        <figcaption>fig.2</figcaption>
+      </figure>
+
+      <figure class="screenshot" style="margin-top: -2em;">
+        <img src="./images/screenshot2.png" alt="screenshot 2">
+        <figcaption>fig.1</figcaption>
+      </figure>
+
+      <figure class="screenshot" style="margin-top: 8em;">
+        <img src="./images/screenshot3.png" alt="screenshot 3">
+        <figcaption>fig.3</figcaption>
+      </figure>
+
+    </div>
+
+  </section>
+
+  <section class="features__container" id="features">
+
+    <div class="section__title">
+      <h4>FEATURES</h4>
+      <hr />
+    </div>
+
+    <div class="features">
+
+      <div class="feature">
+        <div class="feature__title">
+          Minimalistic
+        </div>
+        <div class="feature__content">
+          The UI is designed in a way to avoid a lot of labels, avoid clutter and to allow you to focus on whats
+          really important:- "creating".
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="feature__title">
+          Emphasized
+        </div>
+        <div class="feature__content">
+          Beats are subdivided into accented and regular to emphasize different patterns.
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="feature__title">
+          Intuitive
+        </div>
+        <div class="feature__content">
+          The tempo input supports different ways of interactions; you can use click, drag, scroll or
+          just enter the tempo with your keyboard.
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="feature__title">
+          Performant
+        </div>
+        <div class="feature__content">
+          The timer engine is implemented in a highly performant way to ensure a great experience, not causing
+          any lags even when working with multiple apps.
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="roadmap" id="roadmap">
+
+    <div class="fit">
+      <div class="section__title_left">
+        <h4>CURRENT</h4>
+        <hr />
+      </div>
+
+      <ul class="futures">
+        <li class="future"> dark theme </li>
+        <li class="future"> basic subdivisions </li>
+        <li class="future"> windows support </li>
+        <li class="future"> titlebar v1 design </li>
+        <li class="future"> subdivisions v1 design </li>
+        <li class="future"> tempo input v1 design </li>
+        <li class="future"> stability improvements</li>
+        <li class="future"> primary clicker (ableton sounds)</li>
+        <li class="future"> autoupdate support </li>
+      </ul>
+    </div>
+
+    <div class="fit">
+      <div class="section__title_left">
+        <h4>UPCOMING</h4>
+        <hr />
+      </div>
+
+      <ul class="futures">
+        <li class="future"> light theme </li>
+        <li class="future"> more OS's support </li>
+        <li class="future"> change time signatures </li>
+        <li class="future"> click sounds picker </li>
+        <li class="future"> volume controller </li>
+        <li class="future"> beat indicator </li>
+        <li class="future"> tap tempo detection </li>
+        <li class="future"> support additional subdivisions</li>
+        <li class="future"> preset tempos indicator </li>
+        <!-- <li class="future"> count in's support </li> -->
+        <!-- <li class="future"> decimal support for tempo </li> -->
+        <!-- <li class="future"> high resolution timer </li> -->
+        <!-- <li class="future"> pwa support </li> -->
+      </ul>
+    </div>
+
+  </section>
+
+  <section class="support" id="support">
+
+    <div class="section__title">
+      <h4>PROJECTS</h4>
+      <hr />
+    </div>
+
+    <!-- <span class="support__description">
+    </span> -->
+
+    <span class="support__links">
+      Check out other similar projects:
+      <a class="link_inverse" target="_blank" rel="noopener noreferrer" href="https://github.com/afractal">Gihub</a>
+    </span>
+
+  </section>
+
+  <footer class="footer__container">
+
+    <div class="copyright">
+      <span>
+        Metronome is designed & build with ❤ by <a class="link" target="_blank" rel="noopener noreferrer"
+          href="https://github.com/afractal">afractal</a>.
+      </span>
+      <span>
+        Copyright © 2021. All rights reserved.
+      </span>
+      <span>
+        (v1.0.1)
+      </span>
+    </div>
+
+    <div class="privacy-policy" id="privacy-policy">
+      <span>
+        Your privacy is important. That is why we do not collect any of your personal information.
+      </span>
+    </div>
+
+  </footer>
+
+  <script src="./particles.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
