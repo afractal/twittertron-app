@@ -1,96 +1,119 @@
-# Metronome
+<p align="center">
+    <h3 align="center" style="margin-bottom: -10px;">TwitterTron</h3>
+    <p align="center">Twitter desktop app.</p>
+</p>
 
-[![CircleCI](https://circleci.com/gh/afractal/Metronome.svg?style=svg&circle-token=31596b82aa88ae1f1bbaced0a2a27743a53ab8ee)](https://circleci.com/gh/afractal/Metronome)
+![demo](./demo_screenshot_v3.png)
 
-## **Features**
+## **Download**
 
-- simple & intuitive designer
-- ability to change the tempo fluently
-- subdivisions support
-- overlay ui
+Currently, only Windows is supported.
 
 ## **Changes**
 
-_v1.0_
+_v0.10_
 
-- new overall design
-- new titlebar design
-- new subdivisions design
-- components ui improvements
-- logo design
-- added dark theme styling
-- enabled theming
-- tempo input usability improvements
-- stability improvements
-- non-blocking timer implementation
-- autoupdater support
-- configure windows distro
-- added licenses window (hidden)
+- add multiple themes capability
+- embed tweets
+- add tweet photo viewer
+- handle outside click for header actions
+- handle error case for apis
+- fix application development issue
+-
+
+_v0.9_
+
+- add sign out button
+- add rate-limit exceed dialog
+- add reply functionality
+- UI enhancements
+- add windows installers
+- add compose tweet page
+- new icons
+- add about page
+- add small loading indicator when retweeting & favoriting
+- add support for quoted status
+- tweak playercard design
+- add verification to playercard
+
+_v0.8_
+
+- reduce package size by 44%
+- add refresh functionality
+- add avatar component to leftnavbar
+- fix padding issue for playercard & spinner
+- fix search page layout
+- fix do not display 0 as a retweet & favorite count
+- add topnavbar
+- implement dark theme
+- tweak tweets design
+- add spinner
+
+_v0.7_
+
+- UI enhancements
+- style changes for leftnavbar
+- add search result type options menu
+- reduce package size by 49%
+- add packaging support
+- add live-reloading during development
+- better login workflow
+- add icon for retweets
+
+_v0.6_
+
+- UI enhancements
+- add search page functionality
+- add characters left indicator for textbox
+- fix problem with retweeting & favoriting retweeted tweets
+- add tweetbox styling
+
+_v0.5_
+
+- fix titlebar not draggable when overlayed
+- add simple tweet post implementation
+- add tweet status
+- add constent screen for media
+- add rate limit indicator
+- add link interceptor
+- convert to a more modern react-redux architecture
+
+_v0.4_
+
+- UI enhancements
+- add search feature
+- add playercards
+- add tweet posted time
+- enable media rendering
 
 _v0.3_
 
-- easier tempo methods
-- double click to reset tempo
-- support 16th notes subdivisions
+- refine tweetcards
+- add follow feature
+- add ci integration
+- convert from systemjs to webpack
+- implement pagination for hometimeline
 
 _v0.2_
 
-- add multiple beat sounds
-- improve sound engine logic
-- implement tempo change
-- play strong/weak beats (for 4/4)
-- support subdivisions
-- bpm input is editable
-- added ableton clicks as the default
+- redesign project to use reactjs
+- add retweet, favorite feature
+- refactor authentication code
 
 _v0.1_
 
-- create initial ui design
-- add build system
-- add test suite
-- initialize project
-- add documentation
+- init basic functionality
 
-## Documentation
+## **Credits**
 
-Tempo range, from slowest to fastest:
-
-| Italian          | English                              | Number of beats per minute |
-| ---------------- | ------------------------------------ | -------------------------- |
-| Larghissimo      | very, very slow                      | < 24                       |
-| Adagissimo       | very slowly                          | ≈ 24                       |
-| Grave            | very slow                            | 25 – 45                    |
-| Largo            | broadly                              | 40 – 60                    |
-| Lento            | slowly                               | 45 – 60                    |
-| Larghetto        | rather broadly                       | 60 – 66                    |
-| Adagio           | slowly with great expression         | 66 – 76                    |
-| Adagietto        | slower than andante                  | 70 – 80                    |
-| Andante          | at a walking pace                    | 76 – 108                   |
-| Andantino        | slightly faster than andante         | 80 – 108                   |
-| Marcia moderato  | moderately, in the manner of a march | 83 – 85                    |
-| Andante moderato | between andante and moderato         | 92 – 112                   |
-| Moderato         | at a moderate speed                  | 108 – 120                  |
-| Allegretto       | moderately fast                      | 112 – 120                  |
-| Allegro moderato | close to, but not quite allegro      | 116 – 120                  |
-| Allegro          | fast, quickly, and bright            | 120 – 156                  |
-| Vivace           | lively and fast                      | 156 – 176                  |
-| Vivacissimo      | very fast and lively                 | 172 – 176                  |
-| Allegrissimo     | very fast                            | 172 – 176                  |
-| Presto           | very, very fast                      | 168 – 200                  |
-| Prestissimo      | even faster than presto              | > 200                      |
+Credits to [Denis Domanitsky](https://www.iconfinder.com/iconsets/twitter-ui-set) for most of the icons, under the [Attribution 3.0 Unported (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/) licence.
 
 ## **License**
 
 This product is licensed under the [GPL-3.0](./LICENSE.md) license.
 
+---
+
 <p align="center">
     Made with :heart: by <a href="https://twitter.com/afractally">@afractally</a>
 </p>
-
-
-
-
-
-
-
-
