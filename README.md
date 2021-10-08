@@ -115,5 +115,5 @@ This product is licensed under the [GPL-3.0](./LICENSE.md) license.
 ---
 
 <p align="center">
-    Made with :heart: by <a href="https://twitter.com/afractally">@afractally</a>
+    Made with :heart: by <a href="https://github.com/afractal">@afractal</a>
 </p>
